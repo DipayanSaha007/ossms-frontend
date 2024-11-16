@@ -1,0 +1,131 @@
+/* Updated styles.css */
+body {
+    background-image: "C:\Users\User\OneDrive\Desktop\ossms\salon-service-app\public\image\anime-original-art-4k-x0-1920x1080.jpg";
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Updated background for consistency */
+}
+
+/* .container {
+    background-image: url('C:/Users/User/OneDrive/Desktop/ossms/salon-service-app/public/image/pexels-delbeautybox-211032-705255.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200vh;
+    color: white; /* Ensure text is readable */
+
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+    text-align: center;
+}
+
+button {
+    padding: 12px 25px; /* Increased padding for better button size */
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-weight: bold; /* Bold text for buttons */
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="date"], input[type="number"] {
+    padding: 12px; /* Increased padding */
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1rem; /* Increased font size for readability */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px; /* Increased margin for better spacing */
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.card .card-title {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+.card .card-body {
+    margin-top: 10px;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.success-message {
+    color: green;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.go-back-btn {
+    background-color: #ccc;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.go-back-btn:hover {
+    background-color: #bbb;
+}
