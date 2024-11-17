@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import styles from './styles/SignIn.module.css'; // Import the CSS module
+import styles from './styles/SignIn.css'; // Import the CSS module
 
 function SignIn() {
     const [username, setUsername] = useState('');
