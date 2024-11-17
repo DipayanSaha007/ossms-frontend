@@ -4,7 +4,6 @@ import './styles/StaffManagement.css'
 
 function StaffManagement() {
     const navigate = useNavigate(); // Modified hook
-    // Example list of staff members with their details
     const staffList = [
         { name: 'Amit Sharma', rating: 4.5, specialty: 'Hair Cutting & Styling', contact: 'Amit189@gmail.com' },
         { name: 'Priya Patel', rating: 4.7, specialty: 'Manicure & Pedicure', contact: 'Priya845@gmail.com' },
