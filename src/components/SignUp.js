@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import styles from './styles/SignUp.module.css'; // Import the CSS Module
+import styles from './styles/SignUp.css'; // Import the CSS Module
 //require('dotenv').config({ path: './dead.env' });
 
 function SignUp() {
