@@ -31,7 +31,7 @@ function App() {
           <Route path="/staff-management" element={<StaffManagement />} />
           <Route path="/edit-profile" element={<EditProfile />} /> {/* Add EditProfile Route */}
           <Route path="/customer-query" element={<CustomerQuery />} /> {/* Add CustomerQuery Route */}
-          <Route path="/admin-login" element={<AdminLogin />} />
+          <Route path="/admin-signin" element={<AdminLogin />} />
           <Route path="/admin-dashboard" element={<AdminDashboard />} />
           <Route path="*" element={<div>Page not found</div>} /> {/* Fallback Route */}
         </Routes>
