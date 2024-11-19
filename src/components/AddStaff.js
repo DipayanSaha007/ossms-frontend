@@ -20,7 +20,7 @@ function AddStaff() {
         setMessage(''); // Clear previous messages
 
         try {
-            const response = await fetch(`${process.env.REACT_APP_API_URL}/staff`, {
+            const response = await fetch(`${process.env.REACT_APP_API_URL}/add-staff`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
