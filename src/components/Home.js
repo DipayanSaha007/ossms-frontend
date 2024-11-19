@@ -12,6 +12,7 @@ function Home() {
             <nav className="navbar">
                 <Link to="/signup" className="nav-link">Sign Up</Link>
                 <Link to="/signin" className="nav-link">Sign In</Link>
+                <Link to="/admin-signin" className="nav-link">Admin LogIn</Link>
             </nav>
             <footer className="footer">
                 <p>&copy; 2024 Online Salon Service by Dipayan Saha. All Rights Reserved</p>
