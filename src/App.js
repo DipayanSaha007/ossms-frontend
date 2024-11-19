@@ -14,6 +14,7 @@ import CustomerQuery from './components/CustomerQuery'; // Ensure correct import
 import ForgotPassword from './components/ForgotPassword';
 import AdminLogin from './components/AdminLogin';
 import AdminDashboard from './components/AdminDashboard';
+import AddStaff from './components/AddStaff';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/customer-query" element={<CustomerQuery />} /> {/* Add CustomerQuery Route */}
           <Route path="/admin-signin" element={<AdminLogin />} />
           <Route path="/admin-dashboard" element={<AdminDashboard />} />
+          <Route path="/add-staff" element={<AddStaff />} />
           <Route path="*" element={<div>Page not found</div>} /> {/* Fallback Route */}
         </Routes>
       </div>
