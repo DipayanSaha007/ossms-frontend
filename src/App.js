@@ -12,6 +12,8 @@ import EditProfile from './components/EditProfile'; // Ensure correct import
 import CustomerQuery from './components/CustomerQuery'; // Ensure correct import
 // import './styles.css';
 import ForgotPassword from './components/ForgotPassword';
+import AdminLogin from './components/AdminLogin';
+import AdminDashboard from './components/AdminDashboard';
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
           <Route path="/staff-management" element={<StaffManagement />} />
           <Route path="/edit-profile" element={<EditProfile />} /> {/* Add EditProfile Route */}
           <Route path="/customer-query" element={<CustomerQuery />} /> {/* Add CustomerQuery Route */}
+          <Route path="/admin-login" element={<AdminLogin />} />
+          <Route path="/admin-dashboard" element={<AdminDashboard />} />
           <Route path="*" element={<div>Page not found</div>} /> {/* Fallback Route */}
         </Routes>
       </div>
